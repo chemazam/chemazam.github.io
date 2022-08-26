@@ -1,0 +1,82 @@
+table {
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    margin-left: 200px;
+    
+
+  }
+  
+  caption {
+    text-align: left;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 5px;
+  }
+  
+  thead {
+    background: SteelBlue;
+    color: black;
+  }
+  
+  th,
+  td {
+    padding: 5px 10px;
+  }
+  
+  tbody tr:nth-child(even) {
+    background:black;
+    color: white;
+  }
+  
+  tbody tr td:nth-child(2) {
+    text-align:center;
+  }
+  
+  tbody tr td:nth-child(3),
+  tbody tr td:nth-child(4) {
+    text-align: right;
+    font-family: monospace;
+  }
+  
+  tfoot {
+    background: SeaGreen;
+    color: black;
+    text-align: right;
+  }
+  
+  tfoot tr th:last-child {
+    font-family: monospace;
+  }
+
+.table-productos thead {
+    color: white;
+    background: black;
+    width: 100%;
+    border: solid 1px black;
+}
+
+.table-productos thead tr th{
+    position: relative;
+    padding: 15px 5px;
+    text-align: center;
+    margin-right: 10px;
+    width: 180px;
+    
+}
+.table-productos tbody{
+    position: relative;
+    padding: 15px 5px;
+    text-align: center;
+    margin-right: 10px;
+    width: 180px;
+    background: wheat;
+    
+}
+
+.form-control{
+    position: relative;
+    width: 500px;
+    height: 40px;
+    right: 0;
+}
+

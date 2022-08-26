@@ -1,0 +1,159 @@
+
+.Contenedorsection{
+    position: absolute;
+    width: 85.1%;
+    color: black;
+    height: 91.5%;
+    right: 0;
+    top: 60px;
+    display: none;
+    
+}
+.secciones ul {
+    position: relative;
+    width: 700px;
+    top: 20px;
+    padding: 10px;
+    display:flex;
+    align-items: baseline;
+    
+  }
+  .secciones ul li{
+   margin-left: 10px;
+    
+  }
+  .secciones ul li a {
+    color: black;
+    padding: 10px 5px;
+    background: gold;
+    border-radius: 10px;  
+    list-style: none; 
+  }
+  .secciones ul li span {
+    position: relative;
+    font-size: 20px;
+    left: -5px;
+       
+  }
+  #cerra  {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 95%;
+    top:-5px;
+    background: red;
+    border-radius: 20px;
+  }
+  #cerra a{
+    position: relative;
+    color: white;
+    font-size: 36px;
+    top: -6px;
+    right: 2px;
+   
+  }
+  .Nuevo_Producto{
+    position: absolute;
+  
+    color:black;
+    height: 200px;
+    width: 20%; 
+    top: 80px;  
+    left: 20px;
+    text-align: center;
+    display: none;
+     }
+     .Nuevo_Producto input{
+   width: 100px;
+       }
+
+  .nueva_Seccion{
+    position: relative;    
+    top: 30px;
+    height: 100px;
+    width: 37%;  
+    right: -20px;
+    display: none;
+   }
+
+   .eliminar_secciones{
+    position: absolute;
+    top: 80px;
+    height: 150px;
+    width: 25%;  
+    left: 20px;
+    text-align: center;
+    display: none;
+    
+   }
+   .nueva_Seccion   form a input{
+    position: relative;
+    color: white;
+    background: green;
+    border-radius: 10px;  
+    list-style: none; 
+    width: 100px;
+    height: 30px;
+    right: -315px;
+    top: -26px;
+   }
+   .nueva_Seccion form a input:hover{
+   cursor: pointer;
+   }
+   .Nuevo_Producto   form a input{
+    position: relative;
+    color: white;
+    background: green;
+    border-radius: 10px;  
+    list-style: none; 
+    width: 100px;
+    height: 30px;
+    top: 30px;
+   }
+   .Nuevo_Producto   form a input:hover{
+    cursor: pointer;
+   }
+
+   .eliminar_secciones  form a input{
+    position: relative;
+    color: white;
+    background: green;
+    border-radius: 10px;  
+    list-style: none; 
+    width: 100px;
+    height: 30px;
+    top: 10px;
+   }
+ 
+.btns-men ul li{
+  margin-left: 10px;
+   
+ }
+ .btns-men {
+  position: relative;
+  border: solid 1px black;
+  background: rgba(128, 128, 128, 0.288);
+  display: flex;
+  top: 60px;
+   
+ }
+ .btns-men ul li a {
+   color: white;
+   padding: 5px 5px;
+   background: green;
+   border-radius: 10px;  
+   list-style: none; 
+ }
+
+ .btns-men ul {
+  position: relative;
+  width: 700px;
+  top: 1px;
+  padding: 10px;
+  display:flex;
+  align-items: baseline;
+  
+}
+           
+
+

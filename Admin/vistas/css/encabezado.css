@@ -1,0 +1,44 @@
+body{
+    font-family: 'Kaushan Script', cursive;
+    margin: 0;
+    height: 0;;
+    color: white;
+}
+header{
+    display: flex;
+    height: 40px;
+    background: rgba(0, 0, 0, 0.87);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+}
+
+
+.log{
+    display: flex;
+    align-items: center;
+}
+.log img{
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.bap a{
+  position: relative;
+    text-decoration: none;
+    color: white;
+    right: 00%;
+}
+nav .bap a{
+    padding-right: 20px;
+}
+.bap a:hover{
+    color:green;
+}
+.nav-link{
+    text-decoration: none;
+    color: white;
+    margin-right: 60px;
+}

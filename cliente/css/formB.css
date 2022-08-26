@@ -1,0 +1,165 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(../img/stock.jpg) no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+    height: 100vh;
+}
+.log-f{
+    width: 320px;
+    height: 420px;
+    background: rgba(0, 0, 0, 0.87);
+    color: white;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+.log-f .avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+    
+}
+.log-f h1{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 22px;
+
+}
+.log-f label{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+
+}
+
+.log-f input{
+    width: 100%;
+    margin-bottom: 20px;
+
+} 
+
+.log-f input[type="text"],
+.log-f input[ type="password"],
+.log-f input[ type="number"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.log-f input[ type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    color: black;
+    border-radius: 20px;
+
+}
+.log-f a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+
+}
+.log-f a:hover{
+    color: #fff;
+}
+
+.log-fR{
+    width: auto;
+    height: auto;
+    background: rgba(0, 0, 0, 0.87);
+    color: white;
+    top: 55%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+.log-fR .avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+    
+}
+.log-fR h1{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 22px;
+
+}
+.log-fR label{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+
+}
+
+.log-fR input{
+    width: 100%;
+    margin-bottom: 20px;
+
+} 
+
+.log-fR input[type="text"],
+.log-fR input[ type="password"],
+.log-fR input[ type="number"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.log-fR select{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: darkgrey;
+    font-size: 16px;
+}
+
+.log-fR input[ type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    color: black;
+    border-radius: 20px;
+
+}
+.log-fR a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+
+}
+.log-fR a:hover{
+    color: #fff;
+}

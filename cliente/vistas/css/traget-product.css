@@ -1,0 +1,119 @@
+.contenedor-productos{
+   position: relative;
+    width: 89%;
+    top: -7px;
+    margin-left: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+
+    
+}
+
+
+.card{
+    
+    margin: 10px;
+    position: relative;
+    width: 160px;
+    padding: 10px 5px;
+    background: black;
+    border-radius: 10px;
+    margin-left: 10px;
+  
+    
+}
+
+.card img {
+ position: relative;
+ display: flex;
+ width: 70%;
+ height: 40%;
+ left: 20px;
+ border-radius: 40px;
+ 
+ 
+}
+.lista-productos{
+    position: absolute;
+    top: -40px;
+    left: 10px;
+    
+ }
+
+ 
+.contenedor-carrito{
+
+    position: relative;
+    width: 87.3%;
+    margin-left: 150px;
+    top: 40px;
+    left: 0;
+    padding: 10px;
+    display: none;
+    
+   
+  }
+  .contenedor-pedidos{
+
+    position: relative;
+    width: 87.3%;
+    margin-left: 150px;
+    top: 40px;
+    left: 0;
+    padding: 10px;
+    display: none;
+    
+   
+  }
+
+  
+
+@media(max-width:700px){
+    .contenedor-productos{
+        width: 100%;
+        top: -8px;
+        margin-left:0;
+    } 
+    .card{
+        position: relative;
+        width: 150px;
+        padding: 10px 5px;
+        background: black;
+        border-radius: 10px;
+        margin: 10px;
+        
+        
+    }
+    .contenedor-carrito{
+        position: relative;
+        width: 100%;        
+       display: none;
+       left: -150px;  
+      }
+      .contenedor-carrito table{
+        position: relative;        
+        align-items: center;
+        
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-left: -19px;
+        font-size: 15px;
+        text-align: center;
+        
+      }
+   
+
+
+}
+
+
+ 
+
+  
+  
+ 
+
+

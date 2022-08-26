@@ -1,0 +1,67 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+  }
+  a{
+    text-decoration: none;
+  }
+.menu{
+    position: relative;
+    top: 0;
+    width: 195px;
+    height: 90%;
+    background: #f7f8fa70;
+    border: 1px solid black;
+    right: 0;
+}
+aside .encT{
+    position: relative;
+    
+    width: 100%;
+    height: 50px;
+    background:white;
+    text-align: center;
+  }
+  #mn a{
+    position: relative;
+    color: black;
+    top: 5px;
+    text-align: center;
+    font-size: 25px;
+  }
+  .Btn_men button {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 120px;
+    height: 50px;
+    border-radius: 30px;
+    text-align: center;
+    
+   }
+   .Btn_men #txt{
+    position: relative;
+    border-radius: 40%;
+    font-size: 20px;
+    top: -2px; ;
+  }
+  .Btn_men button:hover{
+    background: gray;
+  }
+
+  .contenedorOrden{
+    position: absolute;
+    background: rgba(255, 255, 255, 0.788);
+    width: 85%;
+    height: 450px;
+    left: 197px;
+    top: 70px;
+  }
+  .tituloPreorden{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background: rgba(128, 128, 128, 0.774);
+  }
